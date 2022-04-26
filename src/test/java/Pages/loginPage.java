@@ -3,6 +3,7 @@ package Pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
 
 import utilities.BaseClass;
 
@@ -21,7 +22,8 @@ public class loginPage {
 	@FindBy(xpath="//*[@id=\"fadein\"]/div[1]/div/div[2]/div[2]/div/form/div[3]/button")
 	public WebElement loginbutton;
 	
-	public void loginagent() {
+	
+		public void loginagent() {
 		
 		
 		usernamefilde.sendKeys(BaseClass.getProperty("agentUsername"));

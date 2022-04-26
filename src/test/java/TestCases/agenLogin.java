@@ -26,7 +26,7 @@ public class agenLogin extends commonMethod {
 	
 	
 	
-	@Test
+	@Test(enabled = false)
 	public void agentlogin() {
 		lp.loginagent();
 		
